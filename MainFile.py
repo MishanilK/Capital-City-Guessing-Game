@@ -1,4 +1,3 @@
-from itertools import count
 from math import *
 from random import *
 from time import *
