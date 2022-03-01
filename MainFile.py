@@ -44,6 +44,7 @@ while True:
                 print("This value is over the scales of the amount of data!")
                 print("Currently, the max amount of goes is 4 as there isn't as much values currently.")
             else:
+                gameRunning = True
                 while gameRunning2 == True:
                     chosenQuestion = choice(list(countriescapitals.items()))
                     if chosenQuestion in valuesAlreadyInSystem:
