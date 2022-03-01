@@ -47,8 +47,8 @@ while True:
                 gameRunning = True
                 while gameRunning2 == True:
                     chosenQuestion = choice(list(countriescapitals.items()))
-                    if chosenQuestion in valuesAlreadyInSystem:
-                        continue
+                    if chosenQuestion in valuesAlreadyInSystem: #having an issue here
+                        pass
                     elif chosenQuestion not in valuesAlreadyInSystem:
                         while True:
                             print("What is the Capital City of", chosenQuestion[0] + "?")
